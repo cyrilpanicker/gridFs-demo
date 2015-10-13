@@ -1,0 +1,18 @@
+{
+  "name": "gridFsDemo",
+  "version": "1.0.0",
+  "description": "Demo on using MongoDB GridFs through NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "cyrilpanicker@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^2.10.2",
+    "express": "^4.13.3",
+    "gridfs-stream": "^1.1.1",
+    "mongoose": "^4.1.11",
+    "multer": "^1.0.6"
+  }
+}
